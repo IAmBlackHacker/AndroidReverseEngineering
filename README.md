@@ -6,6 +6,13 @@ all about android reverse engineering
 >> adb shell pm list packages
 >> abd pull /data/app/apkfile.apk
 ```
+
+## Install/Uninstall
+```
+>> adb install apkfile.apk
+>> adb uninstall apkfile.apk
+```
+
 ## Apktools decoding/build
 ```
 apktool d apkfile.apk -o apkfolder
@@ -25,12 +32,13 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.
 
 ## Tools
 * [Apktools](https://ibotpeaches.github.io/Apktool/)
-* dex2jar
+* [dex2jar](https://tools.kali.org/reverse-engineering/dex2jar)
 * Android Studio
    * sdk 
    * emulator
 * keytools
 * jarsigner
+* [jd-gui](http://java-decompiler.github.io/) (loss some important metadata)
 
 ## Links 
 * [Unofficial Google Play API](https://github.com/egirault/googleplay-api)
