@@ -33,9 +33,9 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.
 * jarsigner
 
 ## Links 
-[Unofficial Google Play API](https://github.com/egirault/googleplay-api)
-[Chrome Extension](https://chrome.google.com/webstore/detail/apk-downloader/fgljidimohbcmjdabiecfeikkmpbjegm?hl=en)
-[Smali Plugin installation](https://crosp.net/blog/software-development/mobile/android/android-reverse-engineering-debugging-smali-using-smalidea/)
+* [Unofficial Google Play API](https://github.com/egirault/googleplay-api)
+* [Chrome Extension](https://chrome.google.com/webstore/detail/apk-downloader/fgljidimohbcmjdabiecfeikkmpbjegm?hl=en)
+* [Smali Plugin installation](https://crosp.net/blog/software-development/mobile/android/android-reverse-engineering-debugging-smali-using-smalidea/)
 
 
 
